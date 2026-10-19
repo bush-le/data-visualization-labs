@@ -11,12 +11,13 @@ Thư mục lưu trữ và quản lý tập trung toàn bộ các bài tập th�
 | **Tuần 1** (28/09/2026) | Trực quan hóa dữ liệu Dân số TP.HCM mới & Top 10 Tỉnh đông dân nhất Việt Nam | [`tuan1_28_09/`](./tuan1_28_09/) | ✅ Hoàn thành |
 | **Tuần 2** (05/10/2026) | Trực quan hóa thành tích đoàn Việt Nam tại các kỳ thi Olympic Toán Quốc tế (IMO) | [`tuan2_05_10/`](./tuan2_05_10/) | ✅ Hoàn thành |
 | **Tuần 3** (12/10/2026) | Phân tích và trực quan hóa dữ liệu hoạt động nhà hàng (Tháng 11/2025) | [`tuan3_12_10/`](./tuan3_12_10/) | ✅ Hoàn thành |
+| **Tuần 4** (19/10/2026) | Trực quan hóa tương tác dữ liệu Logistics KHB & Studio Wedding 2025 (Plotly) | [`tuan4_19_10/`](./tuan4_19_10/) | ✅ Hoàn thành |
 
 ---
 
 ## 📂 Quy Chuẩn Cấu Trúc Thư Mục Cho Các Bài Tập
 
-Mỗi tuần bài tập được tổ chức độc lập trong một thư mục tương ứng: `tuan<SốTuần>_<Ngày>_<Tháng>` (ví dụ: `tuan1_28_09`, `tuan2_05_10`, `tuan3_12_10`):
+Mỗi tuần bài tập được tổ chức độc lập trong một thư mục tương ứng: `tuan<SốTuần>_<Ngày>_<Tháng>` (ví dụ: `tuan1_28_09`, `tuan2_05_10`, `tuan3_12_10`, `tuan4_19_10`):
 
 ```text
 data_visualization/
@@ -33,7 +34,14 @@ data_visualization/
 │   ├── charts/                       # Các bộ biểu đồ xuất ra
 │   ├── generate_visualizations.py    # Script vẽ biểu đồ
 │   └── README.md                     # Báo cáo Tuần 2
-└── tuan3_12_10/                       # Bài tập Tuần 3 (12/10/2026)
-    ├── data/                         # Dữ liệu hoạt động nhà hàng
-    └── README.md                     # Báo cáo Tuần 3
+├── tuan3_12_10/                       # Bài tập Tuần 3 (12/10/2026)
+│   ├── data/                         # Dữ liệu hoạt động nhà hàng
+│   └── README.md                     # Báo cáo Tuần 3
+└── tuan4_19_10/                       # Bài tập Tuần 4 (19/10/2026)
+    ├── data/                         # Dữ liệu Logistics & Studio Wedding
+    ├── description_logistics.md      # Bản đặc tả trực quan hóa Logistics
+    ├── description_studio_wedding.md # Bản đặc tả trực quan hóa Studio Cưới
+    ├── logistics_visualization.ipynb # Notebook trực quan hóa Logistics (Plotly)
+    ├── studio_wedding_visualization.ipynb # Notebook trực quan hóa Studio Cưới (Plotly)
+    └── README.md                     # Báo cáo tổng hợp Tuần 4
 ```
